@@ -1,0 +1,23 @@
+.text {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    color: inherit;
+}
+
+.text--lg {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+    color: inherit;
+}
+
+.text--xl {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+    color: inherit;
+}
+
+.text--sm {
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    color: var(--color-gray);
+}

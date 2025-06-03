@@ -6,17 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/globals.css">
+    <link rel="stylesheet" href="/css/typography.css">
     <link rel="stylesheet" href="/css/index.css">
     <title>Mobile App</title>
 </head>
 
-<body class="layout">
-    <div class="widgets">
-        <div class="widget widgets__widget widget--weather"></div>
-        <div class="widget widgets__widget widget--avia"></div>
-        <div class="widget widgets__widget widget--cinema">
-            <img class="icon icon--profile button__icon" src="/images/cinema-lotr.png" alt="cinema background" />
-        </div>
+<body>
+    <div class="layout">
+        <article class="widget widget--weather">
+            <span class="text widget__text">Paris</span>
+            <span class="text widget__text text--xl">24°</span>
+        </article>
+        <article class="widget widget--avia widget--light">
+            <span class="text widget__text text--sm">Departure</span>
+            <section class="widget__row">
+                <span class="text widget__text text--lg"></span>
+                <span class="text widget__text text--sm"></span>
+            </section>
+            <button class="button widget__button">→</button>
+        </article>
+        <article class="widget widget--cinema"></article>
     </div>
 </body>
 

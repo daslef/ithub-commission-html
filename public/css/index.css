@@ -1,10 +1,41 @@
-.layout,
-.layout * {
-    font-family: var(--font-family);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    background: none;
+    -webkit-font-smoothing: antialiased;
 }
 
 .layout {
-    height: 100vh;
-    position: relative;
+    background-color: var(--color-gray);
     overflow: hidden;
+    font-family: var(--font-family);
+}
+
+.widget {
+    color: var(--color-white);
+}
+
+.widget--light {
+    color: var(--color-black);
+}
+
+.widget--weather {
+    background-color: #333842;
+}
+
+.widget--avia {
+    background: var(--color-white);
+}
+
+.widget--cinema {}
+
+.widget__row {}
+
+.button {
+    background: var(--color-accent);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
 }
